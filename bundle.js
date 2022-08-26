@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         tampermonkey-starter
 // @namespace    http://tampermonkey.net/
-// @version      0.2.2
+// @version      0.2.3
 // @description  tampermonkey 脚本初始化脚手架
 // @author       maqibin
 // @match        https://www.baidu.com/
