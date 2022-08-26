@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <button className="fixed-button" onClick={() => alert("123")}>
+        挂件
+      </button>
+    </div>
+  );
 }
