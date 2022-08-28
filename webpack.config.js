@@ -49,6 +49,10 @@ const config = {
     compress: true,
     port: 9000,
   },
+  // 脚本发布后，会被举报，不允许压缩
+  optimization: {
+    minimize: false,
+  },
   module: {
     rules: [
       {
