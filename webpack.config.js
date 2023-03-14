@@ -53,10 +53,6 @@ const config = {
   optimization: {
     minimize: false,
   },
-  externals: {
-    react: "react",
-    "react-dom": "reactDOM",
-  },
   module: {
     rules: [
       {
