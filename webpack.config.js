@@ -61,6 +61,10 @@ const config = {
         exclude: /node_modules/,
       },
       {
+        test: /\.png/,
+        type: "asset",
+      },
+      {
         test: /\.css$/,
         use: [
           {
